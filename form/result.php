@@ -15,7 +15,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                         echo "<br>";
                         var_dump($_POST['email']);
                     }else{
-                        echo "Email NHẬP VÀO KHÔNG ĐÚNG ĐỊNH DẠNG NHÉ !";
+                        echo "EMAIL NHẬP VÀO KHÔNG ĐÚNG ĐỊNH DẠNG NHÉ !";
                     }
                 }else{
                     echo "BẠN CẦN NHẬP MẬT KHẨU CHO ĐÚNG !";
